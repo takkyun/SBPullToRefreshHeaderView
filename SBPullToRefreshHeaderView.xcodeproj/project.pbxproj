@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435C8D0914F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C8D0814F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.m */; };
+		435C8D0C14F6C8D900ADEB68 /* SBPullToRefreshHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435C8D0B14F6C8D900ADEB68 /* SBPullToRefreshHeaderView.xib */; };
+		437884D114F6C1C800C86348 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437884D014F6C1C800C86348 /* UIKit.framework */; };
+		437884D314F6C1C800C86348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437884D214F6C1C800C86348 /* Foundation.framework */; };
+		437884D514F6C1C800C86348 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437884D414F6C1C800C86348 /* CoreGraphics.framework */; };
+		437884DD14F6C1C800C86348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437884DC14F6C1C800C86348 /* main.m */; };
+		437884E114F6C1C800C86348 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437884E014F6C1C800C86348 /* SBAppDelegate.m */; };
+		437884E414F6C1C800C86348 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437884E314F6C1C800C86348 /* SBViewController.m */; };
+		43C5725314F7868E00B2D2EF /* icon-pull-to-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C5724F14F7868E00B2D2EF /* icon-pull-to-refresh.png */; };
+		43C5725414F7868E00B2D2EF /* icon-pull-to-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C5725014F7868E00B2D2EF /* icon-pull-to-refresh@2x.png */; };
+		43C5725514F7868E00B2D2EF /* icon-release-to-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C5725114F7868E00B2D2EF /* icon-release-to-refresh.png */; };
+		43C5725614F7868E00B2D2EF /* icon-release-to-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C5725214F7868E00B2D2EF /* icon-release-to-refresh@2x.png */; };
+		43D85C3E14F6C2FA0009D2B1 /* SBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D85C3D14F6C2FA0009D2B1 /* SBViewController.xib */; };
+		43D85C4014F6C3390009D2B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D85C3F14F6C3390009D2B1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		435C8D0714F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPullToRefreshHeaderView.h; sourceTree = "<group>"; };
+		435C8D0814F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPullToRefreshHeaderView.m; sourceTree = "<group>"; };
+		435C8D0B14F6C8D900ADEB68 /* SBPullToRefreshHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBPullToRefreshHeaderView.xib; sourceTree = "<group>"; };
+		437884CC14F6C1C800C86348 /* SBPullToRefreshHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBPullToRefreshHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437884D014F6C1C800C86348 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		437884D214F6C1C800C86348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		437884D414F6C1C800C86348 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		437884D814F6C1C800C86348 /* SBPullToRefreshHeaderView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBPullToRefreshHeaderView-Info.plist"; sourceTree = "<group>"; };
+		437884DC14F6C1C800C86348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		437884DE14F6C1C800C86348 /* SBPullToRefreshHeaderView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBPullToRefreshHeaderView-Prefix.pch"; sourceTree = "<group>"; };
+		437884DF14F6C1C800C86348 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		437884E014F6C1C800C86348 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		437884E214F6C1C800C86348 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		437884E314F6C1C800C86348 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		43C5724F14F7868E00B2D2EF /* icon-pull-to-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-pull-to-refresh.png"; sourceTree = "<group>"; };
+		43C5725014F7868E00B2D2EF /* icon-pull-to-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-pull-to-refresh@2x.png"; sourceTree = "<group>"; };
+		43C5725114F7868E00B2D2EF /* icon-release-to-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-release-to-refresh.png"; sourceTree = "<group>"; };
+		43C5725214F7868E00B2D2EF /* icon-release-to-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-release-to-refresh@2x.png"; sourceTree = "<group>"; };
+		43D85C3D14F6C2FA0009D2B1 /* SBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBViewController.xib; sourceTree = "<group>"; };
+		43D85C3F14F6C3390009D2B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437884C914F6C1C800C86348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D85C4014F6C3390009D2B1 /* QuartzCore.framework in Frameworks */,
+				437884D114F6C1C800C86348 /* UIKit.framework in Frameworks */,
+				437884D314F6C1C800C86348 /* Foundation.framework in Frameworks */,
+				437884D514F6C1C800C86348 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43129AFE14F6C23300ECC9E3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				437884DC14F6C1C800C86348 /* main.m */,
+				437884DF14F6C1C800C86348 /* SBAppDelegate.h */,
+				437884E014F6C1C800C86348 /* SBAppDelegate.m */,
+				437884D814F6C1C800C86348 /* SBPullToRefreshHeaderView-Info.plist */,
+				437884DE14F6C1C800C86348 /* SBPullToRefreshHeaderView-Prefix.pch */,
+				437884E214F6C1C800C86348 /* SBViewController.h */,
+				437884E314F6C1C800C86348 /* SBViewController.m */,
+				43D85C3D14F6C2FA0009D2B1 /* SBViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		437884C114F6C1C800C86348 = {
+			isa = PBXGroup;
+			children = (
+				437884D614F6C1C800C86348 /* SBPullToRefreshHeaderView */,
+				43129AFE14F6C23300ECC9E3 /* Demo */,
+				437884CF14F6C1C800C86348 /* Frameworks */,
+				437884CD14F6C1C800C86348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437884CD14F6C1C800C86348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437884CC14F6C1C800C86348 /* SBPullToRefreshHeaderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437884CF14F6C1C800C86348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				437884D414F6C1C800C86348 /* CoreGraphics.framework */,
+				437884D214F6C1C800C86348 /* Foundation.framework */,
+				43D85C3F14F6C3390009D2B1 /* QuartzCore.framework */,
+				437884D014F6C1C800C86348 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		437884D614F6C1C800C86348 /* SBPullToRefreshHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				435C8D0714F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.h */,
+				435C8D0814F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.m */,
+				435C8D0B14F6C8D900ADEB68 /* SBPullToRefreshHeaderView.xib */,
+				43C5724E14F7868E00B2D2EF /* Resources */,
+			);
+			path = SBPullToRefreshHeaderView;
+			sourceTree = "<group>";
+		};
+		43C5724E14F7868E00B2D2EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43C5724F14F7868E00B2D2EF /* icon-pull-to-refresh.png */,
+				43C5725014F7868E00B2D2EF /* icon-pull-to-refresh@2x.png */,
+				43C5725114F7868E00B2D2EF /* icon-release-to-refresh.png */,
+				43C5725214F7868E00B2D2EF /* icon-release-to-refresh@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437884CB14F6C1C800C86348 /* SBPullToRefreshHeaderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437884EA14F6C1C800C86348 /* Build configuration list for PBXNativeTarget "SBPullToRefreshHeaderView" */;
+			buildPhases = (
+				437884C814F6C1C800C86348 /* Sources */,
+				437884C914F6C1C800C86348 /* Frameworks */,
+				437884CA14F6C1C800C86348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBPullToRefreshHeaderView;
+			productName = SBPullToRefreshHeaderView;
+			productReference = 437884CC14F6C1C800C86348 /* SBPullToRefreshHeaderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437884C314F6C1C800C86348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "SerendipityNZ Ltd";
+			};
+			buildConfigurationList = 437884C614F6C1C800C86348 /* Build configuration list for PBXProject "SBPullToRefreshHeaderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 437884C114F6C1C800C86348;
+			productRefGroup = 437884CD14F6C1C800C86348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437884CB14F6C1C800C86348 /* SBPullToRefreshHeaderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437884CA14F6C1C800C86348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D85C3E14F6C2FA0009D2B1 /* SBViewController.xib in Resources */,
+				435C8D0C14F6C8D900ADEB68 /* SBPullToRefreshHeaderView.xib in Resources */,
+				43C5725314F7868E00B2D2EF /* icon-pull-to-refresh.png in Resources */,
+				43C5725414F7868E00B2D2EF /* icon-pull-to-refresh@2x.png in Resources */,
+				43C5725514F7868E00B2D2EF /* icon-release-to-refresh.png in Resources */,
+				43C5725614F7868E00B2D2EF /* icon-release-to-refresh@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437884C814F6C1C800C86348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437884DD14F6C1C800C86348 /* main.m in Sources */,
+				437884E114F6C1C800C86348 /* SBAppDelegate.m in Sources */,
+				437884E414F6C1C800C86348 /* SBViewController.m in Sources */,
+				435C8D0914F6C8BA00ADEB68 /* SBPullToRefreshHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		437884E814F6C1C800C86348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		437884E914F6C1C800C86348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437884EB14F6C1C800C86348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/SBPullToRefreshHeaderView-Prefix.pch";
+				INFOPLIST_FILE = "Demo/SBPullToRefreshHeaderView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		437884EC14F6C1C800C86348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/SBPullToRefreshHeaderView-Prefix.pch";
+				INFOPLIST_FILE = "Demo/SBPullToRefreshHeaderView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437884C614F6C1C800C86348 /* Build configuration list for PBXProject "SBPullToRefreshHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437884E814F6C1C800C86348 /* Debug */,
+				437884E914F6C1C800C86348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437884EA14F6C1C800C86348 /* Build configuration list for PBXNativeTarget "SBPullToRefreshHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437884EB14F6C1C800C86348 /* Debug */,
+				437884EC14F6C1C800C86348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437884C314F6C1C800C86348 /* Project object */;
+}
