@@ -40,7 +40,7 @@
     [mRefreshHeaderView setMessage:NSLocalizedString(@"Loading ...",@"")
                           forState:kSBRefreshHeaderIsLoading];
   }
-	// Do any additional setup after loading the view, typically from a nib.
+  // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
@@ -51,7 +51,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+  return YES;
 }
 
 #pragma mark -
@@ -59,15 +59,15 @@
 
 - (void)reloadTableViewDataSource
 {
-	// should be calling your tableviews data source model to reload put here just
+  // should be calling your tableviews data source model to reload put here just
   // for demo
-	mIsReloading = YES;
+  mIsReloading = YES;
 }
 
 - (void)doneLoadingTableViewData
 {
-	// model should call this when its done loading
-	mIsReloading = NO;
+  // model should call this when its done loading
+  mIsReloading = NO;
   [mRefreshHeaderView resetView:YES];
 }
 
@@ -76,8 +76,8 @@
 
 - (void)didTriggerRefresh:(SBPullToRefreshHeaderView *)headerView
 {
-	[self reloadTableViewDataSource];
-	[self performSelector:@selector(doneLoadingTableViewData)
+  [self reloadTableViewDataSource];
+  [self performSelector:@selector(doneLoadingTableViewData)
              withObject:nil
              afterDelay:3.0];
 }
@@ -117,14 +117,14 @@
 - (NSString *)tableView:(UITableView *)tableView
 titleForHeaderInSection:(NSInteger)section
 {
-	return [NSString stringWithFormat:@"Section %i", section];
+  return [NSString stringWithFormat:@"Section %i", section];
 }
 
 #pragma mark -
 #pragma mark === UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView
-  didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
   [tableView deselectRowAtIndexPath:indexPath
                            animated:YES];
