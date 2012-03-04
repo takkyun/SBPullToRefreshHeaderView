@@ -3,7 +3,7 @@
 //  SBPullToRefreshHeaderView
 //
 //  Created by Takuya Otani on 24/02/12.
-//  Copyright (c) 2012 SerendipityNZ Ltd. All rights reserved.
+//  Copyright (c) 2012 SerendipityNZ Ltd.
 //
 //  Inspired by EGOTableViewPullRefresh 
 //              Developed by Devin Doty on 10/14/09 (c) 2009 enormego.

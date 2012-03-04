@@ -14,7 +14,6 @@ Yet another view for "pull-to-refresh":
 is developed by Takuya Otani / SimpleBoxes.
 
 Copyright (c) 2012 [SerendipityNZ](http://serendipitynz.com/) Ltd. 
-All rights reserved.
 
 SBPullToRefreshHeaderView is inspired by 
 [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) 
